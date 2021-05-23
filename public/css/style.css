@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 240, 196);
+}
+
+.is-prime {
+    color: #00e676;
+}
+
+.not-prime {
+    color: #ff3d00;
+}
+
+#errorDiv {
+    color: #ff3d00;
+    font-weight: bold;
+}
+
+footer {
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+html,
+body {
+    font-size: 14pt;
+}
+
+li {
+    border-style: solid solid none solid;
+    border-color: black;
+    width: fit-content;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#results :last-child {
+    border-style: solid;
+}
+
+#formNumber {
+    display: block;
+    min-height: 3em;
+}
